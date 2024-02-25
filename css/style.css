@@ -13,7 +13,7 @@ img{
 }
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@ img{
 
 .col-4{
     width: calc(4 * 100% /12);
+    padding: 10px;
 }
 .nav_menu{
     background-color: #FF6900;
@@ -65,14 +66,21 @@ img{
 .hero{
     margin: 50px 0;
 }
+.title{
+    margin-bottom: 20px;
+}
 .title > *{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.col-4 img{
+    display: block;
+}
 
-.col-4 .card{
-    border: 1 solid #EAEAEA;
-} */
+.card-description{
+    border: 1px solid #EDEDED;
+    padding: 10px;
+}
 
 .brand{
 font-size: 12px;
