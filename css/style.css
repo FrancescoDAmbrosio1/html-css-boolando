@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul, ol, menu{
     list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 img{
@@ -20,6 +26,7 @@ img{
 .row{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .col-4{
@@ -60,6 +67,7 @@ img{
 
 .icon{
     padding: 5px;
+    height: 35px;
 }
 
 /* main */
@@ -71,7 +79,6 @@ img{
 }
 .title > *{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .col-4 img{
     display: block;
@@ -97,4 +104,40 @@ font-size: 12px;
 .full-price{
     text-decoration: line-through;
     font-size: 14px;
+}
+
+/* footer */
+.end-page{
+    background-color: black;
+    color: #FFFFFF;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+  
+}
+
+.end-page h3{
+    padding: 8px;
+}
+
+.info-section__item{
+    display: flex;
+}
+
+.info__item{
+padding: 8px;
+}
+
+.social-section__item{
+    display: flex;
+    align-items: center;
+}
+
+.social__item{
+    height: 30px;
+
+}
+
+.end-page .row{
+    justify-content: space-between;
 }
